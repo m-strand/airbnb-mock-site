@@ -1,0 +1,436 @@
+{
+  "types": [
+    {
+      "id": "1",
+      "image": "https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg",
+      "name": "Artic"
+    },
+    {
+      "id": "2",
+      "image": "https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg",
+      "name": "Castles"
+    },
+    {
+      "id": "3",
+      "image": "https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg",
+      "name": "Iconic Cities"
+    },
+    {
+      "id": "4",
+      "image": "https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg",
+      "name": "Treehouses"
+    },
+    {
+      "id": "5",
+      "image": "https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg",
+      "name": "Windmills"
+    }
+  ],
+  
+  "artic": [
+    {
+      "id": 1,
+      "image": "https://a0.muscache.com/im/pictures/6726aebd-f827-4ca1-8964-14335a73065f.jpg?im_w=720",
+      "location": "Hadsel, Norway",
+      "rating": 4.96,
+      "distance": 3619,
+      "dates": "Aug 23-28",
+      "price": 195
+      
+    },
+    {
+      "id": 2,
+      "image": "https://a0.muscache.com/im/pictures/064a1094-d11d-4c87-a3ff-5ecbab4961d5.jpg?im_w=720",
+      "location": "Flakstad, Norway",
+      "rating": 4.67,
+      "distance": 3577,
+      "dates": "Jun 29-Jul 4",
+      "price": 205
+      
+    },
+    {
+      "id": 3,
+      "image": "https://a0.muscache.com/im/pictures/2fa17902-129c-4a67-8af3-52218fb2d17f.jpg?im_w=720",
+      "location": "Muonio, Finland",
+      "rating": 5.0,
+      "distance": 3849,
+      "dates": "Jun 1-6",
+      "price": 190
+      
+    },
+    {
+      "id": 4,
+      "image": "https://a0.muscache.com/im/pictures/dee4b2c0-dabb-4238-ae9d-68a08239d69f.jpg?im_w=720",
+      "location": "Sisimiut, Greenland",
+      "rating": "New",
+      "distance": 1972,
+      "dates": "Oct 1-6",
+      "price": 92
+      
+    },
+    {
+      "id": 5,
+      "image": "https://a0.muscache.com/im/pictures/9880202a-0ecc-4cb3-9602-c02a73a25352.jpg?im_w=720",
+      "location": "Kiruna, Sweden",
+      "rating": 4.9,
+      "distance": 3749,
+      "dates": "Oct 4-9",
+      "price": 209
+      
+    },
+
+    {
+      "id": 6,
+      "image": "https://a0.muscache.com/im/pictures/25624825/6ef8e934_original.jpg?im_w=720",
+      "location": "Akureyri, Iceland",
+      "rating": 4.78,
+      "distance": "n/a",
+      "dates": "Oct 29-Nov 4",
+      "price": 215
+    },
+
+    {
+      "id": 7,
+      "image": "https://a0.muscache.com/im/pictures/d0a17be9-17f5-49b5-b4dc-f49cd3af96c0.jpg?im_w=720",
+      "location": "Vefsn, Norway",
+      "rating": "New",
+      "distance": "n/a",
+      "dates": "Sep 1-6",
+      "price": 122
+    },
+
+    {
+      "id": 8,
+      "image": "https://a0.muscache.com/im/pictures/8bd2fa37-66d8-4208-a715-10242fa859bb.jpg?im_w=720",
+      "location": "Stora Vatnshorn, Iceland",
+      "rating": 4.92,
+      "distance": "n/a",
+      "dates": "Sep 21-27",
+      "price": 149
+    }
+  ],
+
+  "treehouses": [
+    {
+      "id": 9,
+      "location": "Willington, Connecticut",
+      "image": "https://a0.muscache.com/im/pictures/e7e72c42-3268-4e06-992b-bb75b6aa0a00.jpg?im_w=720",
+      "distance": 123,
+      "dates": "Sep 18-23",
+      "price": 234,
+      "rating": 4.89
+    }, 
+
+    {
+      "id": 10,
+      "location": "Hardwick, Vermont",
+      "image": "https://a0.muscache.com/im/pictures/38794512-d935-4268-837e-246d470bde04.jpg?im_w=720",
+      "distance": 274,
+      "dates": "Nov 6-11",
+      "price": 217,
+      "rating": 4.98
+    }, 
+    
+    {
+      "id": 11,
+      "location": "Concord, North Carolina",
+      "image": "https://a0.muscache.com/im/pictures/09d4c103-ed36-4027-ae6a-358549c84e6e.jpg?im_w=720",
+      "distance": 509,
+      "dates": "Jun 19-24",
+      "price": 183,
+      "rating": 4.96
+    }, 
+
+    {
+      "id": 12,
+      "location": "Saint Johnsbury, Vermont",
+      "image": "https://a0.muscache.com/im/pictures/51beb74c-2d23-4da2-af5b-14dd8bb7b98e.jpg?im_w=720",
+      "distance": 279,
+      "dates": "Oct 31-Nov 5",
+      "price": 289,
+      "rating": 4.94
+    }, 
+
+    {
+      "id": 13,
+      "location": "Wareham, Massachusetts",
+      "image": "https://a0.muscache.com/im/pictures/32b41b39-846d-4078-a655-4173fa9b72a0.jpg?im_w=720",
+      "distance": 185,
+      "dates": "Jun 1-6",
+      "price": 190,
+      "rating": 4.96
+    },
+
+    {
+      "id": 14,
+      "image": "https://a0.muscache.com/im/pictures/fe5ff38b-d386-46b2-b9f8-f36d18fcdaad.jpg?im_w=720",
+      "location": "Cantabria, Spain",
+      "rating": 4.89,
+      "distance": "n/a",
+      "dates": "Nov 13-18",
+      "price": 222
+    },
+
+    {
+      "id": 15,
+      "image": "https://a0.muscache.com/im/pictures/88ae027a-16ea-4ede-9318-6fb067eca024.jpg?im_w=720",
+      "location": "Martillac, France",
+      "rating": 4.95,
+      "distance": "n/a",
+      "dates": "Sep 12-17",
+      "price": 278
+    },
+
+    {
+      "id": 16,
+      "image": "https://a0.muscache.com/im/pictures/43d596f4-e8e6-4e00-88e4-26763bd58cd9.jpg?im_w=720",
+      "location": "Mondim de Basto, Portugal",
+      "rating": 4.98,
+      "distance": "n/a",
+      "dates": "Sep 30-Oct 5",
+      "price": 141
+    }
+  ],
+
+  "windmills": [
+    {
+      "id": 17,
+      "location": "Ponta Delgada, Portugal",
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=720",
+      "distance": 2554,
+      "dates": "Sep 26-Oct 1",
+      "price": 296,
+      "rating": 4.96
+    }, 
+
+    {
+      "id": 18,
+      "location": "Tietjerk, Netherlands",
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-43420830/original/30580f74-467b-43a3-8b25-1c678b284bd5.jpeg?im_w=720",
+      "distance": 3661,
+      "dates": "Jun 28-Jul 3",
+      "price": 197,
+      "rating": 4.8
+    }, 
+    
+    {
+      "id": 19,
+      "location": "Korithi, Greece",
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-46651505/original/0048d369-9437-48e3-9883-858f74f596ba.jpeg?im_w=720",
+      "distance": 4795,
+      "dates": "Jun 30-Jul 6",
+      "price": 151,
+      "rating": "New"
+    }, 
+
+    {
+      "id": 20,
+      "location": "Osterbruch, Germany",
+      "image": "https://a0.muscache.com/im/pictures/1141548d-0059-4094-b4ac-aa8fdd23e31f.jpg?im_w=720",
+      "distance": 3764,
+      "dates": "Jul 2-9",
+      "price": 58,
+      "rating": 4.73
+    }, 
+
+    {
+      "id": 21,
+      "location": "Oombergen, Belgium",
+      "image": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-26134732/original/80610493-eeb5-4647-b4f3-85f402e6f15d.jpeg?im_w=720",
+      "distance": 3637,
+      "dates": "Sep 9-16",
+      "price": 78,
+      "rating": 4.5
+    },
+
+    {
+      "id": 22,
+      "image": "https://a0.muscache.com/im/pictures/01b56573-15ba-4d86-bab3-5f57b0088956.jpg?im_w=720",
+      "location": "Santa Marta de Portuzelo, Portugal",
+      "rating": 4.93,
+      "distance": "n/a",
+      "dates": "Jul 15-21",
+      "price": 993
+    },
+    {
+      "id": 23,
+      "image": "https://a0.muscache.com/im/pictures/709b9402-497e-4d59-81bd-e7a427edcd0f.jpg?im_w=720",
+      "location": "Bon-Encontre, France",
+      "rating": 4.79,
+      "distance": "n/a",
+      "dates": "Sep 11-16",
+      "price": 62
+    },
+
+    {
+      "id": 24,
+      "image": "https://a0.muscache.com/im/pictures/c4ba3d94-e03b-434c-95a3-4ba5c97a583c.jpg?im_w=720",
+      "location": "Murcia, Spain",
+      "rating": 4.78,
+      "distance": "n/a",
+      "dates": "Jun 13-18",
+      "price": 69
+    },
+
+    {
+      "id": 25,
+      "image": "https://a0.muscache.com/im/pictures/bb2f1eaf-5ebd-413d-b4f4-cf3d47f51297.jpg?im_w=720",
+      "location": "Margaux, France",
+      "rating": 4.94,
+      "distance": "n/a",
+      "dates": "Aug 18-23",
+      "price": 181
+    }
+  ],
+ 
+  "iconicCities": [
+    {
+      "id": 26,
+      "location": "Marrakesh, Morocco",
+      "image": "https://a0.muscache.com/im/pictures/11424264/9b74726b_original.jpg?im_w=720",
+      "distance": 3648,
+      "dates": "Oct 9-14",
+      "price": 84,
+      "rating": 4.88
+    },
+
+    {
+      "id": 27,
+      "location": "Cape Town, South Africa",
+      "image": "https://a0.muscache.com/im/pictures/d0ca15e5-87bc-4912-bbc0-6c564e42afc7.jpg?im_w=720",
+      "distance": 7807,
+      "dates": "Jun 26-Jul 2",
+      "price": 70,
+      "rating": 4.85
+    }, 
+    
+    {
+      "id": 28,
+      "location": "Edinburgh, UK",
+      "image": "https://a0.muscache.com/im/pictures/8fa351eb-1a60-47ad-99a8-d06e1a1dbb3f.jpg?im_w=720",
+      "distance": 219,
+      "dates": "Oct 30-Nov 4",
+      "price": 219,
+      "rating": 4.99
+    }, 
+
+    {
+      "id": 29,
+      "location": "Florence, Italy",
+      "image": "https://a0.muscache.com/im/pictures/51430034/44e710d3_original.jpg?im_w=720",
+      "distance": "84",
+      "dates": "Oct 25-30",
+      "price": "84",
+      "rating": "4.9"
+    }, 
+
+    {
+      "id": 30,
+      "location": "Havana, Cuba",
+      "image": "https://a0.muscache.com/im/pictures/acaabee6-2085-4d2c-a3d5-e279d5dddaa9.jpg?im_w=720",
+      "distance": 1307,
+      "dates": "Jul 13-18",
+      "price": 37,
+      "rating": 4.84
+    },
+
+    {
+      "id": 31,
+      "image": "https://a0.muscache.com/im/pictures/monet/Select-18663734/original/46a59f35-923a-4c66-81df-e63a01aa0d20?im_w=720",
+      "location": "Shanghai, China",
+      "rating": 4.96,
+      "distance": "n/a",
+      "dates": "Jun 11-18",
+      "price": 52
+    },
+
+    {
+      "id": 32,
+      "image": "https://a0.muscache.com/im/pictures/b55671fc-7ffe-4276-b3d3-e16abff8a7bf.jpg?im_w=720",
+      "location": "San Juan, Puerto Rico",
+      "rating": 4.96,
+      "distance": "n/a",
+      "dates": "Sep 11-18",
+      "price": 249
+    },
+
+    {
+      "id": 33,
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-52545315/original/99a7885d-1694-4c08-9f69-3e40d8e9f541.jpeg?im_w=720",
+      "location": "Mumbai, India",
+      "rating": "New",
+      "distance": "n/a",
+      "dates": "Jul 1-6",
+      "price": 373
+    }
+  ],
+
+    
+  "castles": [
+    {
+      "id": 34,
+      "location": "Vale of Avoca, Ireland",
+      "image": "https://a0.muscache.com/im/pictures/392cf83d-d3e2-4296-8609-e9e1af91eba1.jpg?im_w=720",
+      "distance": 3187,
+      "dates": "Jul 10-15",
+      "price": 169,
+      "rating": 4.75
+    },
+    {
+      "id": 35,
+      "location": "El Barraco, Spain",
+      "image": "https://a0.muscache.com/im/pictures/8d4ac3e0-b401-4017-9ef3-35146586e26e.jpg?im_w=720",
+      "distance": 3542,
+      "dates": "Aug 13-18",
+      "price": 844,
+      "rating": "New"
+    },
+    {
+      "id": 36,
+      "location": "Ballintuim, UK",
+      "image": "https://a0.muscache.com/im/pictures/7907b90c-7c9b-4ffe-bc84-5e2fb2b11eea.jpg?im_w=720",
+      "distance": 3239,
+      "dates": "Jun 5-12",
+      "price": 181,
+      "rating": 4.92
+    },
+    {
+      "id": 37,
+      "location": "Santa Marta de Portuzelo, Portugal",
+      "image": "https://a0.muscache.com/im/pictures/01b56573-15ba-4d86-bab3-5f57b0088956.jpg?im_w=720",
+      "distance": 3306,
+      "dates": "Jun 1-8",
+      "price": 650,
+      "rating": 4.93
+    },
+    {
+      "id": 38,
+      "location": "Pouldreuzic, France",
+      "image": "https://a0.muscache.com/im/pictures/640e5278-95df-4db1-ba79-45ebb4b2ba86.jpg?im_w=720",
+      "distance": 3359,
+      "dates": "Jun 6-11",
+      "price": 792,
+      "rating": "New"
+    },
+
+    {
+      "id": 39,
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-1099769/original/680022b4-9939-4f59-83df-267a0531237c.jpeg?im_w=720",
+      "location": "Langoiran, France",
+      "rating": 4.96,
+      "distance": "n/a",
+      "dates": "Jun 12-17",
+      "price": 1058
+    },
+
+    {
+      "id": 40,
+      "image": "https://a0.muscache.com/im/pictures/108511070/b0e18d45_original.jpg?im_w=720",
+      "location": "Issus, France",
+      "rating": 5.0,
+      "distance": "n/a",
+      "dates": "Aug 29-Sep 3",
+      "price": 1532
+    }
+  ]
+  }
