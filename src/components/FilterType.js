@@ -5,9 +5,9 @@ function FilterType () {
 
     const [filters, setFilters] = useState ([]);
     useEffect(() => {
-        fetch("http://localhost:3000/")
+        fetch('http://localhost:3000/types')
         .then((response) => response.json())
-        .then((data) => setFilters(data.types));
+        .then((data) => setFilters(data));
 
     },[]);
 

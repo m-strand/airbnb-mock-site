@@ -5,9 +5,13 @@ function IconicCities () {
     const [citiesListings, setCitiesListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/")
+        fetch("http://localhost:3000/iconiccities", {
+            headers: {
+                'Accept': 'application/json'
+           }
+        })
         .then((response) => response.json())
-        .then((data) => {setCitiesListings(data.iconicCities)});
+        .then((data) => {setCitiesListings(data)});
     },[]);
     
     return (

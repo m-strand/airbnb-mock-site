@@ -5,9 +5,12 @@ function Artic () {
     const [articListings, setArticListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/")
+        fetch("http://localhost:3000/artic", {
+            headers: { 
+                'Accept': 'application/json'
+           }})
         .then((response) => response.json())
-        .then((data) => {setArticListings(data.artic)});
+        .then((data) => {setArticListings(data)});
     },[]);
     
     return (

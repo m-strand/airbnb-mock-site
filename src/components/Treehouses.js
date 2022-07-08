@@ -5,9 +5,13 @@ function Treehouses () {
     const [treehouseListings, setTreehouseListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/")
+        fetch("http://localhost:3000/treehouses", {
+            headers: { 
+                'Accept': 'application/json'
+           }
+        })
         .then((response) => response.json())
-        .then((data) => {setTreehouseListings(data.treehouses)});
+        .then((data) => {setTreehouseListings(data)});
     },[]);
     
     return (

@@ -5,9 +5,13 @@ function Castle () {
     const [castleListings, setCastleListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/")
+        fetch("http://localhost:3000/castles", {
+            headers: { 
+                'Accept': 'application/json'
+           }
+        })
         .then((response) => response.json())
-        .then((data) => {setCastleListings(data.castles)});
+        .then((data) => {setCastleListings(data)});
     },[]);
     
     return (

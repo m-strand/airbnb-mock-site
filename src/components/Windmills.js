@@ -5,9 +5,13 @@ function Windmills () {
     const [windmillListings, setWindmillListings] = useState([]);
  
     useEffect(() => {
-        fetch("http://localhost:3000/")
+        fetch("http://localhost:3000/windmills", {
+            headers: { 
+                'Accept': 'application/json'
+           }
+        })
         .then((response) => response.json())
-        .then((data) => {setWindmillListings(data.windmills)});
+        .then((data) => {setWindmillListings(data)});
     },[]);
     
     return (

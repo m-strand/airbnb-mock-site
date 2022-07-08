@@ -3,27 +3,32 @@
     {
       "id": "1",
       "image": "https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg",
-      "name": "Artic"
+      "name": "Artic",
+      "pathway":"/artic"
     },
     {
       "id": "2",
       "image": "https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg",
-      "name": "Castles"
+      "name": "Castles",
+      "pathway":"/castles"
     },
     {
       "id": "3",
       "image": "https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg",
-      "name": "Iconic Cities"
+      "name": "Iconic Cities",
+      "pathway":"/iconiccities"
     },
     {
       "id": "4",
       "image": "https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg",
-      "name": "Treehouses"
+      "name": "Treehouses",
+      "pathway": "/treehouses"
     },
     {
       "id": "5",
       "image": "https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg",
-      "name": "Windmills"
+      "name": "Windmills",
+      "pathway": "/windmills"
     }
   ],
   
