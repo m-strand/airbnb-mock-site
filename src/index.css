@@ -148,26 +148,29 @@ body {
 }
 
 .listing-component {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
   margin: 200px 80px 0 80px;
   z-index: -1;
   
 }
 
 .listingCard {
-  float: left;
-  width: 25%;
-  margin-bottom: 50px;
-}
-
-.listingInfo {
-  text-align: left;
-  margin: 0 25px;
+  flex: 25%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   
 }
 
-.location {
-  float: left;
+.listingInfo {
+  display: block;
+  text-align: left;
+  width: 300px;
+  height: auto;
+  
 }
 .rating {
   float: right;
@@ -177,6 +180,7 @@ body {
   font-weight: 200;
   clear: left;
 }
+
 
 .listingImg {
   height: 300px;
@@ -227,8 +231,6 @@ body {
   width: 100%;
   bottom: 0;
   border-top: 1px solid #dddddd;
-  align-items: center;
-  justify-content: center;
   z-index: 1;
   background-color: white;
 }
@@ -289,4 +291,117 @@ body {
   border: none;
   background-color: white;
   padding: 5px;
+}
+
+.small-device-header {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.searchbar-sd {
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+  width: 95%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px #dddddd;
+}
+
+.search-text-sd {
+  display: block;
+  line-height: 1px;
+}
+
+.AAA {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #dddddd;
+}
+
+.search-sd {
+  border: none;
+  background: white;
+  font-weight: 400;
+}
+
+.link-sd {
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+.filter-sd {
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 3px;
+  margin: 5px;
+}
+
+.small-device-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0;
+  font-size: 12px;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  padding-top: 10px;
+
+}
+
+.footerBtn-sd {
+  display: block;
+  text-align: center;
+}
+
+.airbnb {
+ font-size: 30px;
+}
+
+.search-footer-sd {
+  color: rgb(255, 56, 92);
+}
+
+@media only screen and (max-width: 800px) {
+  .listing-component {
+    justify-content: center;
+  }
+  .listingCard {
+    flex: 100%;
+    margin: 40px 0;
+  }
+  .listingImg {
+    width: 400px;
+    height: 400px;
+  }
+  .listingInfo {
+    width: 400px;
+  }
+  .filter-component {
+    margin-left: 40px;
+  }
+ }
+
+@media only screen and (max-width: 1100px) {
+  .listingCard {
+    flex: 50%;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+  .listingCard {
+    flex: 33%;
+  }
 }

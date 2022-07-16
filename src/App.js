@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Routes, Route} from "react-router-dom";
 import Header from "./components/Header.js";
 import FilterType from "./components/FilterType.js";
@@ -9,21 +9,32 @@ import Treehouses from "./components/Treehouses.js";
 import Windmills from "./components/Windmills.js";
 import Footer from "./components/Footer.js";
 import FooterDrop from "./components/FooterDrop.js";
+import SDHeader from "./components/SDHeader.js";
+import SDFooter from "./components/SDFooter.js";
 
 function App () {
     const [menuUp, setmenuUp] = useState("false");
+    const [isDesktop, setDesktop] = useState(window.innerWidth < 850);
     function handleArrowClick () {
         setmenuUp(!menuUp);
     }
+    function updateWindowSize () {
+      setDesktop(window.innerWidth < 850);
+    }
+    
+    useEffect(() => {
+    window.addEventListener("resize", updateWindowSize);
+    return () => window.removeEventListener("resize", updateWindowSize);
+  });
 
     return (
         <>
-        <Header />
+        {isDesktop ? <SDHeader/> : <Header />}
         
         <FilterType />
 
         <Routes>
-            <Route path="/artic" element={<Artic />}/>
+            <Route default path="/artic" element={<Artic />}/>
                 
             <Route path="/castles" element={<Castles/>}/>
 
@@ -34,7 +45,11 @@ function App () {
             <Route path="/windmills" element={<Windmills/>}/>
         </Routes>
 
-       {menuUp? <Footer handleArrow={handleArrowClick}/> : <FooterDrop handleArrow2={handleArrowClick} /> }
+       {isDesktop ? 
+       <SDFooter/> :
+       menuUp ? 
+       <Footer handleArrow={handleArrowClick}/> : 
+       <FooterDrop handleArrow2={handleArrowClick} /> } 
         
         </>
 

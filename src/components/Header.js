@@ -15,15 +15,15 @@ function Header () {
                 <button className="btn filterbtn">Anywhere</button>
                 <button className="btn filterbtn">Any Week</button>
                 <button className="btn guests">Add Guests</button>
-                <button className="material-icons searchbtn">search</button>
+                <button className="searchbtn material-icons">search</button>
 
             </div>
             <div className="user-info">
                 <p className= "btn hostbtn headerHover2 header-right">Become a Host</p>
-                <button className="material-icons langbtn headerHover2 header-right">language</button>
+                <button className="langbtn headerHover2 header-right material-icons">language</button>
                 <button onClick={handleMenuToggle} className="btn usermenu headerHover header-right">
-                    <i className="material-icons user-icons">menu</i>
-                    <i className="material-icons user-icons">person</i>
+                    <i className="user-icons material-icons">menu</i>
+                    <i className="user-icons material-icons">person</i>
                 </button> 
                 {menuUp ? null : <HeaderDrop/>}
             </div>

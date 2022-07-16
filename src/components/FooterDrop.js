@@ -4,7 +4,7 @@ function FooterDrop ({handleArrow2, menuUp}) {
     return (
 
     <div className="additional-footer-info"> 
-        <button className="exit material-icons" onClick={handleArrow2}>&#xe14c;</button>
+        <button className="exit material-icons" onClick={handleArrow2}>close</button>
         <div className="additional-footer-section">
             <h4>Support</h4>
             <p>Help Center</p>

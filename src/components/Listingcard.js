@@ -4,12 +4,14 @@ function Listingcard ({image, location, distance, rating, dates, price}) {
     return (
         <div className="listingCard">
                 <img alt="listing" className="listingImg" src={image}/>
-            <div className="first-line">
-                <span className="listingInfo location">{location}</span>
-                <span className="listingInfo rating">{rating}&#9733;</span>
-            </div>
-                <p className="listingInfo light">{dates}</p>
-                <p className="listingInfo">${price}</p>
+            <div class="listingInfo">
+                <div className="first-line">
+                    <span className="info location">{location}</span>
+                    <span className="rating">{rating}&#9733;</span>
+                </div>
+                <p className="info light">{dates}</p>
+                <p className="info price">${price}</p>
+                </div>
         </div>
     )
 }

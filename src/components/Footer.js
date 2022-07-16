@@ -20,7 +20,7 @@ function Footer ({handleArrow, menuUp}) {
             <p className="container-element hoverItem">English (US)</p>
             <p className="container-element hoverItem"><span>$</span> USD</p>
             <p className="container-element hoverItem">Support & Resources</p>
-            <span onClick={handleArrow} className="material-icons more-info">keyboard_arrow_up</span>
+            <span onClick={handleArrow} className=" more-info material-icons">keyboard_arrow_up</span>
         </div>
         </div>   
         );
