@@ -34,15 +34,15 @@ function App () {
         <FilterType />
 
         <Routes>
-            <Route default path="/artic" element={<Artic />}/>
+            <Route path="/artic" component={<Artic />}/>
                 
-            <Route path="/castles" element={<Castles/>}/>
+            <Route path="/castles" component={<Castles/>}/>
 
-            <Route path="/iconiccities" element={<IconicCities/>}/>
+            <Route path="/iconiccities" component={<IconicCities/>}/>
 
-            <Route path="/treehouses" element={<Treehouses/>}/>
+            <Route path="/treehouses" component={<Treehouses/>}/>
 
-            <Route path="/windmills" element={<Windmills/>}/>
+            <Route path="/windmills" component={<Windmills/>}/>
         </Routes>
 
        {isDesktop ? 
