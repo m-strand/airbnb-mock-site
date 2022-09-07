@@ -5,7 +5,14 @@ function FilterType () {
 
     const [filters, setFilters] = useState ([]);
     useEffect(() => {
-        fetch('https://airbnb-database.herokuapp.com/types')
+        fetch('https://airbnb-database.herokuapp.com/types', {
+            
+            headers: { 
+                'Accept': 'application/json',
+                'Access-Control-Allow-Origin' : 'https://airbnb-database.herokuapp.com'
+                
+           }
+        })
         .then((response) => response.json())
         .then((data) => setFilters(data));
 

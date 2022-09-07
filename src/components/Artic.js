@@ -7,7 +7,8 @@ function Artic () {
     useEffect(() => {
         fetch("https://airbnb-database.herokuapp.com/artic", {
             headers: { 
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Access-Control-Allow-Origin' : 'https://airbnb-database.herokuapp.com'
            }})
         .then((response) => response.json())
         .then((data) => {setArticListings(data)});

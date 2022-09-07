@@ -6,8 +6,11 @@ function Castle () {
 
     useEffect(() => {
         fetch("https://airbnb-database.herokuapp.com/castles", {
+            
             headers: { 
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Access-Control-Allow-Origin' : 'https://airbnb-database.herokuapp.com'
+                
            }
         })
         .then((response) => response.json())
