@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from './App';
 import "./index.css";
 
+const port = process.env.PORT || 4000;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

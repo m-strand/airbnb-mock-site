@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Listingcard ({image, location, distance, rating, dates, price}) {
+function Listingcard ({image, location, rating, dates, price}) {
     return (
         <div className="listingCard">
                 <img alt="listing" className="listingImg" src={image}/>
