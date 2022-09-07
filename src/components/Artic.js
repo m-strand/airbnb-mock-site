@@ -5,7 +5,7 @@ function Artic () {
     const [articListings, setArticListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/artic", {
+        fetch("https://airbnb-database.herokuapp.com/artic", {
             headers: { 
                 'Accept': 'application/json'
            }})

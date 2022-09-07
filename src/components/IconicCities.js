@@ -5,7 +5,7 @@ function IconicCities () {
     const [citiesListings, setCitiesListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/iconiccities", {
+        fetch("https://airbnb-database.herokuapp.com/iconiccities", {
             headers: {
                 'Accept': 'application/json'
            }

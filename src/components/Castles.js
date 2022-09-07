@@ -5,7 +5,7 @@ function Castle () {
     const [castleListings, setCastleListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/castles", {
+        fetch("https://airbnb-database.herokuapp.com/castles", {
             headers: { 
                 'Accept': 'application/json'
            }

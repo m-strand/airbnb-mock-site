@@ -5,7 +5,7 @@ function Treehouses () {
     const [treehouseListings, setTreehouseListings] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/treehouses", {
+        fetch("https://airbnb-database.herokuapp.com/treehouses", {
             headers: { 
                 'Accept': 'application/json'
            }

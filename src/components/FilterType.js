@@ -5,7 +5,7 @@ function FilterType () {
 
     const [filters, setFilters] = useState ([]);
     useEffect(() => {
-        fetch('http://localhost:3000/types')
+        fetch('https://airbnb-database.herokuapp.com/types')
         .then((response) => response.json())
         .then((data) => setFilters(data));
 

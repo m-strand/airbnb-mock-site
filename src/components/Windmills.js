@@ -5,7 +5,7 @@ function Windmills () {
     const [windmillListings, setWindmillListings] = useState([]);
  
     useEffect(() => {
-        fetch("http://localhost:3000/windmills", {
+        fetch("https://airbnb-database.herokuapp.com/windmills", {
             headers: { 
                 'Accept': 'application/json'
            }
