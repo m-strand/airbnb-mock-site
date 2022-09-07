@@ -4,7 +4,7 @@ function Listingcard ({image, location, rating, dates, price}) {
     return (
         <div className="listingCard">
                 <img alt="listing" className="listingImg" src={image}/>
-            <div class="listingInfo">
+            <div className="listingInfo">
                 <div className="first-line">
                     <span className="info location">{location}</span>
                     <span className="rating">{rating}&#9733;</span>
