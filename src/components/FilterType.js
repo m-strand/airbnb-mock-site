@@ -23,7 +23,7 @@ function FilterType () {
             
             {filters.map((filter) => {
                 return (
-                <NavLink className="filterIcon" to={filter.pathway} key={filter.id}>
+                <NavLink to={filter.pathway} className="filterIcon" key={filter.id}>
                     <img alt="listing" className="filterImg" src={filter.image} /> 
                     <p>{filter.name}</p>
                 </NavLink>
