@@ -119,7 +119,7 @@ body {
 .filter-component {
   position: fixed;
   top: 80px;
-  margin-left: 80px;
+  padding-left: 80px;
   width: 100%;
   z-index: 0;
   background-color: white;
