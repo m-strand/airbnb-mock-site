@@ -150,19 +150,18 @@ body {
 .listing-component {
   display: flex;
   flex-wrap: wrap;
-  margin: 200px 80px 0 80px;
+  justify-content: left;
+  margin: 200px 0 0 0;
   z-index: -1;
   
 }
 
 .listingCard {
-  flex: 25%;
-  height: auto;
+  width: 25%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  
+  justify-content: center;
+
 }
 
 .listingInfo {
@@ -183,8 +182,8 @@ body {
 
 
 .listingImg {
-  height: 300px;
   width: 300px;
+  height: 300px;
   border-radius: 7%;
 }
 
@@ -197,21 +196,16 @@ body {
   border-bottom: 2px solid #dddddd;
 }
 
-
-
 .user-dropdown {
   width: 250px;
-  height: 250px;
   text-align: left;
   border-radius: 4%;
   border: 1px solid #dddddd;
   display: block;
   position: absolute;
-  margin-top: 300px;
+  top: 60px;
   background: white;
   z-index: 1;
-  
-  
 }
 
 .login {
@@ -373,34 +367,88 @@ body {
   color: rgb(255, 56, 92);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 625px) {
   .listing-component {
     justify-content: center;
   }
   .listingCard {
     flex: 100%;
-    margin: 40px 2px;
   }
+
+  .listingImg{
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  .listingInfo {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 625px) and (max-width: 800px) {
+  .listing-component {
+    justify-content: center;
+  }
+  .listingCard {
+    flex: 50%;
+  }
+
+  .listingImg{
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .listingInfo {
+    width: 300px;
+  }
+
+  .filter-component {
+    padding-left: 10px;
+    justify-content: center;
+  }
+ }
+
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+  .listingCard {
+    flex: 50%;
+  }
+
   .listingImg {
     width: 400px;
     height: 400px;
   }
+
   .listingInfo {
     width: 400px;
-  }
-  .filter-component {
-    padding-left: 40px;
-  }
- }
-
-@media only screen and (max-width: 1100px) {
-  .listingCard {
-    flex: 50%;
   }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1400px) {
   .listingCard {
     flex: 33%;
+  }
+  .listingInfo {
+    width: 350px;
+  }
+
+  .listingImg {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .listingCard {
+    flex: 15%;
+  }
+  .listingInfo {
+    width: 400px;
+  }
+
+  .listingImg {
+    width: 400px;
+    height: 400px;
   }
 }

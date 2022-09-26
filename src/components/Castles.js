@@ -22,8 +22,8 @@ function Castle () {
         {castleListings.map((listing) => {
             return (
                 <Listingcard key={listing.id} image={listing.image} location={listing.location} rating={listing.rating} dates={listing.dates} price={listing.price} />
-            );
-        })};
+            )
+        })}
         
         </div>
     );
